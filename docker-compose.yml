@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  zalo_testapi:
+    image: zalo_testapi
+    build:
+      context: .\Zalo_TestAPI
+      dockerfile: Dockerfile
